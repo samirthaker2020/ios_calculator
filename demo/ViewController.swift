@@ -24,16 +24,14 @@ class ViewController: UIViewController {
     }
 
     
-    @IBAction func btnadd(_ sender: UIButton) {
+    @IBAction func btnoperator(_ sender: UIButton) {
         a=Int(txtno1.text!)!
         b=Int(txtno2.text!)!
-        c=a+b
-        lblresult.text=String(c)
+        
     }
     
     
-    @IBAction func btnsubmit(_ sender: UIButton) {
-    }
+    
     
     
 
